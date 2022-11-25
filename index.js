@@ -7,8 +7,7 @@ saturdayFun('This Saturday, I want to bathe my dog!')
 
 
 let mondayWork = function(work='go to the office'){
-    return` This Monday, I will ${work}`
-
+    return`This Monday, I will ${work}.`
 }
 mondayWork('This Monday, I will work from home.');
 
