@@ -1,24 +1,21 @@
 // code your solution here
 function saturdayFun(fun='roller-skate'){
-    console.log(`This Saturday, I want to ${fun}!`);
+    return`This Saturday, I want to ${fun}!`
 
 }
-saturdayFun();
 saturdayFun('This Saturday, I want to bathe my dog!')
 
 
-const mondayWork = function(work='go to the office'){
-    console.log(`${work}`);
+let mondayWork = function(work='go to the office'){
+    return` This Monday, I will ${work}`
 
 }
-mondayWork();
 mondayWork('This Monday, I will work from home.');
 
 
-function wrapAdjective(){
 
-    return function(wrap="*"){
-        console.log(`You were ${wrap}`)
-
-    }    
+let wrapAdjective = function(style="*"){
+    return function(adjective="special"){
+        return `You are ${style}${adjective}${style}!`
+    }
 }
